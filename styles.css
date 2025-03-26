@@ -1,0 +1,66 @@
+body {
+    background-image: url('background.jpg'); /* مسیر عکس */
+    background-size: cover;  /* برای پوشش کامل صفحه */
+    background-position: center; /* برای وسط‌چین کردن */
+    background-attachment: fixed; /* ثابت نگه‌داشتن هنگام اسکرول */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white; /* خوانا بودن متن */
+}
+
+h1 {
+    color: #000000; /* سفید شدن تیتر برای خوانایی */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-box {
+    background: rgba(255, 255, 255, 0.9); /* شفافیت برای خوانایی */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+p {
+    margin-top: 10px;
+    color: #333; /* تیره‌تر کردن متن برای خوانایی */
+}
+
+.video-box {
+    background: rgba(255, 255, 255, 0.9); /* شفافیت */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.vote-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vote-button:hover {
+    background-color: #212888;
+}
